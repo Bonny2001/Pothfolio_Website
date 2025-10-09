@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+html {
+  scroll-behavior: smooth;
+}
+
+.font-hero {
+  font-family: "BBH Sans Hegarty", sans-serif;
+}
+
+.font-hero2 {
+  font-family: "BBH Sans Bartle", sans-serif;
+
+}
+
+.font-hero3 {
+  font-family: "BBH Sans Bogle", sans-serif;
+}
+
+.font-hero4{
+  font-family: "Poppins", sans-serif;
+}
