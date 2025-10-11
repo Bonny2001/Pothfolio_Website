@@ -38,17 +38,18 @@ const Projects = () => {
           <SwiperSlide key={project.id}>
             <div className="card group hover:shadow-lg rounded-lg overflow-hidden">
               <figure className="relative">
-                <a href={project.projectUrl} target="_blank" rel="noopener noreferrer">
+                <a href={project.projectUrl} target="_blank" >
                   <img
                     src={project.imageUrl}
                     alt={project.title || "Project"}
                     className="w-full  object-cover transition-transform duration-500 group-hover:scale-110"
                   />
-                </a>
+                
                 <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 
                 transition-opacity duration-500 flex items-center justify-center text-white text-lg font-semibold">
                   {project.title || "View Project"}
                 </div>
+                </a>
               </figure>
             </div>
           </SwiperSlide>
