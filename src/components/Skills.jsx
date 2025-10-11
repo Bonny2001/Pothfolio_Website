@@ -4,7 +4,7 @@ const Skills = () => {
     return (
         <div className='container flex justify-center text-center flex-col items-center ' >
 
-            <h1 className=' font-hero2 text-[5rem] bg-gradient-to-r from-yellow-500 via-red-500 to-pink-500 text-transparent bg-clip-text'>Skills</h1>
+            <h1 className=' font-hero2 text-[5rem] bg-gradient-to-r from-yellow-500 via-red-500 to-pink-500 text-transparent bg-clip-text opacity-100 hover:opacity-0 transition-opacity duration-1 '>Skills</h1>
             
 
             <div className='flex gap-5 mb-20 h-fit rounded-lg p-8 justify-center items-center ' >
@@ -41,8 +41,8 @@ const Skills = () => {
                         </ul>
                     </div>
                 </div>
-                <div className='w-[40%]' >
-                    <img src="dev.png" alt="" />
+                <div className='w-[40%] ' >
+                    <img src="dev.png" alt=""  />
                 </div>
             </div>
         </div>

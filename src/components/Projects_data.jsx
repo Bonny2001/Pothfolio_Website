@@ -14,11 +14,18 @@ const Data = [
         projectUrl: "https://dancing-academy.vercel.app/"
     },
      {
-        id: 2,
-        title: "Project Two",
+        id: 3,
+        title: "Project Three",
         description: "This is a brief description of Project Two.",
         imageUrl: "pj-3.png",
         projectUrl: "https://food-delivary-project-seven.vercel.app/"
+    },
+      {
+        id: 4,
+        title: "Project Four",
+        description: "This is a brief description of Project Two.",
+        imageUrl: "pj-4.png",
+        projectUrl: "https://calculator-app-flax-five.vercel.app/"
     }
 ]
 
