@@ -2,15 +2,18 @@ import React from 'react'
 
 const Skills = () => {
     return (
-        <div className='container flex justify-center text-center flex-col items-center ' >
+        <div className="container mx-auto flex flex-col items-center text-center px-4 py-20">
+            <h1 className="font-hero2 text-5xl sm:text-6xl md:text-[5rem] 
+            bg-gradient-to-r from-yellow-500 via-red-500 to-pink-500 text-transparent bg-clip-text opacity-100 
+            hover:opacity-0 transition-opacity duration-1000">
+                Skills
+            </h1>
 
-            <h1 className=' font-hero2 text-[5rem] bg-gradient-to-r from-yellow-500 via-red-500 to-pink-500 text-transparent bg-clip-text opacity-100 hover:opacity-0 transition-opacity duration-1 '>Skills</h1>
-            
-
-            <div className='flex gap-5 mb-20 h-fit rounded-lg p-8 justify-center items-center ' >
-                <div className='w-[50%]'>
-                    <div className="bg-gradient-to-br from-[#2b1055] to-[#7597de] p-10 rounded-3xl shadow-[0_0_40px_rgba(165,39,255,0.4)]">
-                        <h2 className="text-white text-4xl font-bold mb-6 text-center">My Tech Stack</h2>
+            <div className="flex flex-col md:flex-row gap-20 mt-10 mb-20 w-full justify-center items-center">
+                {/* Tech Stack Box */}
+                <div className="w-[full] md:w-2/5">
+                    <div className="bg-gradient-to-br from-[#2b1055] to-[#7597de] p-6 sm:p-10 rounded-3xl shadow-[0_0_40px_rgba(165,39,255,0.4)]">
+                        <h2 className="text-white text-3xl sm:text-4xl font-bold mb-6 text-center">My Tech Stack</h2>
 
                         <ul className="flex flex-wrap justify-center gap-4">
                             {[
@@ -31,9 +34,9 @@ const Skills = () => {
                             ].map((tech, index) => (
                                 <li
                                     key={index}
-                                    className="bg-[rgba(255, 255, 255, 0.1)] text-white text-xl px-6 py-3 rounded-2xl backdrop-blur-md 
-                                       hover:bg-[rgba(165,39,255,0.3)] hover:scale-105 transition-transform duration-300
-                                       shadow-[inset_0px_0px_20px_2px_rgba(165,39,255,0.5)] font-hero4"
+                                    className="bg-[rgba(255,255,255,0.1)] text-white text-sm sm:text-base md:text-xl px-4 sm:px-6 py-2 sm:py-3 rounded-2xl backdrop-blur-md 
+                                               hover:bg-[rgba(165,39,255,0.3)] hover:scale-105 transition-transform duration-300
+                                               shadow-[inset_0px_0px_20px_2px_rgba(165,39,255,0.5)] font-hero4"
                                 >
                                     {tech}
                                 </li>
@@ -41,8 +44,10 @@ const Skills = () => {
                         </ul>
                     </div>
                 </div>
-                <div className='w-[40%] ' >
-                    <img src="dev.png" alt=""  />
+
+                {/* Image */}
+                <div className="w-full md:w-2/5">
+                    <img src="dev.png" alt="Developer" className="w-full h-auto object-contain" />
                 </div>
             </div>
         </div>

@@ -7,10 +7,12 @@ import { Pagination, Autoplay } from "swiper/modules";
 
 const Projects = () => {
   return (
-    <div className="container h-[90vh] flex flex-col justify-center">
+    <div className="container h-[70vh] sm:h-[80vh] md:h-[100vh]  flex flex-col justify-center  items-center px-4 py-10 mx-auto">
       {/* Title */}
       <div className="flex justify-center mb-10 mt-10 pb-2">
-        <h1 className="text-[60px] font-hero2 pt-4 bg-gradient-to-r from-teal-500 via-orange-500 to-yellow-500 text-transparent bg-clip-text hover:scale-105 transition-transform duration-300">
+        <h1 className="text-4xl sm:text-5xl md:text-[4rem]  font-hero2 pt-4 
+        bg-gradient-to-r from-teal-500 via-orange-500 to-yellow-500 text-transparent bg-clip-text 
+        hover:scale-105 transition-transform duration-300 ">
           Projects
         </h1>
       </div>

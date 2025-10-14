@@ -6,12 +6,13 @@ import Skills from './components/Skills'
 import About from './components/About'
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Home from './components/Home'
+import Contact from './components/Contact'
 function App() {
   return (
     <>
       <BrowserRouter>
         <Navbar />
-        <div className=" relative isolate px-6 pt-14 lg:px-8 min-h-screen overflow-hidden ">
+        <div className=" relative isolate px-6 pt-14 lg:px-8 min-h-screen overflow-hidden fixed">
           {/* Top Gradient */}
           <div
             aria-hidden="true"
@@ -34,6 +35,7 @@ function App() {
             <Route path="/work" element={<Projects />} />
             <Route path="/skill" element={<Skills />} />
             <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
 
           </Routes>
 

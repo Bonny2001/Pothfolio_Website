@@ -2,35 +2,46 @@ import React from 'react';
 
 function Hero() {
   return (
-    <div className="container ">
+    <div className="container mx-auto px-6 py-10">
+      <div className="flex flex-col-reverse md:flex-col-reverse lg:flex-row xl:flex-row items-center justify-center h-[65vh] md:h-[90vh] text-center md:text-left gap-18 ">
 
-
-
-      <div className="flex  items-center justify-center h-[80vh] gap-30 text-center h-[100vh]">
-
-        {/* <h1 className="text-white text-4xl">Coming Soon...</h1> */}
-        <div className="title flex flex-col justify-center text-center ">
-          <h1 className="text-white  font-bold mb-4  text-center  ">
-            <span className='text-[55px] font-hero2
-         bg-gradient-to-tl from-red-600 via-violet-500 to-red-600 bg-clip-text text-transparent
-            '>Web Artist's</span> <br />
-            <span className='text-[80px] font-hero2 
-           bg-gradient-to-r from-red-500 via-green-500 to-purple-500 text-transparent bg-clip-text '>Workshop</span>
+        {/* Left Section: Text */}
+        <div className="title flex flex-col justify-center items-center  text-center ">
+          <h1 className="text-white font-bold mb-4 leading-tight ">
+            <span
+              className="anim text-[30px] sm:text-[30px] md:text-[35px] lg:text-[40px] xl:text-[50px] font-hero2
+         bg-gradient-to-tl from-red-600 via-violet-500 to-red-600 bg-clip-text text-transparent" style={{animationDelay:"0.5s"}}
+            >
+              Web Artist's
+            </span>
+            <br />
+            <span
+              className="anim text-[30px] sm:text-[25px] md:text-[55px] lg:text-[65px] xl:text-[70px] font-hero2
+           bg-gradient-to-r from-red-500 via-green-500 to-purple-500 text-transparent bg-clip-text" style={{animationDelay:"1s"}}
+            >
+              Workshop
+            </span>
           </h1>
-          <p className="text-gray-300 text-xl font-hero4 tracking-[5px]   
-            bg-gradient-to-l from-blue-500 via-teal-500 to-green-500 text-transparent bg-clip-text  
-          "> i'm Arkaprava, it's my Pothfolio website in React JS</p>
-
-
+          <p
+            className="anim text-gray-300 text-[5px] sm:text-[12px] md:text-[16px] lg:text-[16px] font-hero4 tracking-[3px] sm:tracking-[5px]
+            bg-gradient-to-l from-blue-500 via-teal-500 to-green-500 text-transparent bg-clip-text max-w-[700px]" style={{animationDelay:"1.5s"}}
+          >
+            Welcome t0 my Portfolio website built with React JS.
+          </p>
         </div>
-        <div className="hero_img bg-gradient-to-tr from-purple-500 via-pink-500 to-red-500 p-[6px] rounded-[80rem]
-      shadow-[3px_13px_103px_26px_rgba(114,_29,_234,_0.69)]
-         hover:scale-105 transition-transform duration-300">
-          <img src="arkaprava_pic.png" alt="Hero" className="rounded-[80rem] shadow-lg  h-[25rem] " />
+
+        {/* Right Section: Image */}
+        <div className="anim hero_img bg-gradient-to-tr from-purple-500 via-pink-500 to-red-500 p-[5px] rounded-full shadow-[0_10px_80px_rgba(114,29,234,0.6)]
+         hover:scale-105 transition-transform duration-300 " style={{animationDelay:"2s"}}>
+          <img
+            src="arkaprava_pic.png"
+            alt="Hero"
+            className="rounded-full shadow-lg w-[200px] sm:w-[200px] md:w-[200px] lg:w-[250px] xl:w-[280px] object-cover "
+
+          />
         </div>
+
       </div>
-
-
     </div>
   );
 }
