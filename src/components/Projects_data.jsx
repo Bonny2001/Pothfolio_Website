@@ -16,10 +16,11 @@ const Data = [
     },
     {
         id: 3,
-        title: "Food Delivary",
+         title: "Dancing Academy",
         description: "This is a brief description of Project Two.",
-        imageUrl: "pj-3.png",
-        projectUrl: "https://food-delivary-project-seven.vercel.app/"
+        imageUrl: "pj-2.png",
+        projectUrl: "https://dancing-academy.vercel.app/"
+       
     },
     {
         id: 4,
@@ -30,10 +31,10 @@ const Data = [
     },
     {
         id: 5,
-        title: "Dancing Academy",
+        title: "Food Delivary",
         description: "This is a brief description of Project Two.",
-        imageUrl: "pj-2.png",
-        projectUrl: "https://dancing-academy.vercel.app/"
+        imageUrl: "pj-3.png",
+        projectUrl: "https://food-delivary-project-seven.vercel.app/"
     }
 ]
 
