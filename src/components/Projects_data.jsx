@@ -31,7 +31,7 @@ const Data = [
         id: 5,
         title: "Luxary Cars",
         description: "This is a brief description of Project Two.",
-        imageUrl: "pj-4.png",
+        imageUrl: "pj-5.png",
         projectUrl: "https://luxary-cars.vercel.app/"
     }
 ]
