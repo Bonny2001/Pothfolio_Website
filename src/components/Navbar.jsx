@@ -15,7 +15,8 @@ const Navbar = () => {
   };
 
   return (
-    <div className="navbar flex items-center p-3 bg-opacity-30 backdrop-blur-lg text-white text-xl fixed top-0 left-0 w-full z-50  anim1"  style={{animationDelay:"2.8s"}}>
+    <div className="navbar flex items-center p-3 bg-opacity-30 backdrop-blur-lg 
+    text-white text-xl fixed top-0 left-0 w-full z-50  anim1"  style={{animationDelay:"2.8s"}}>
       {/* Logo */}
       <div className="logo pr-[4rem]">
         <img
