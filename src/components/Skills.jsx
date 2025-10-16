@@ -1,9 +1,9 @@
 import React from 'react'
-    import { DotLottieReact } from '@lottiefiles/dotlottie-react';
+import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 
 const Skills = () => {
     return (
-        <div className="container mx-auto flex flex-col items-center text-center px-4 py-2">
+        <div className="container mx-auto flex flex-col items-center text-center px-4 py-10 md:py-20">
             <h1 className="font-hero2 text-2xl sm:text-2xl md:text-[3rem] 
             bg-gradient-to-r from-yellow-500 via-red-500 to-pink-500 text-transparent bg-clip-text opacity-100 
             hover:opacity-0 transition-opacity duration-1000">
@@ -50,11 +50,12 @@ const Skills = () => {
                 {/* Image */}
                 <div className="w-full md:w-2/5">
                     <DotLottieReact
-                        src="https://lottie.host/0b34cb78-fd1c-42a0-a0d1-b9bd6c0e34c5/psur83IKnu.lottie"
+                        src="https://lottie.host/a82db8c6-1976-49ed-9f77-df1608da834f/KnmBDEM0nw.lottie"
                         loop
                         autoplay
-                        className='scale-145 '
+                        className='scale-200'
                     />
+
                 </div>
             </div>
         </div>

@@ -52,7 +52,7 @@ function Hero() {
           <img
             src="arkaprava_pic.png"
             alt="Hero"
-            className="rounded-full shadow-lg w-[180px] sm:w-[200px] md:w-[200px] lg:w-[250px] xl:w-[280px] object-cover "
+            className="rounded-full shadow-lg w-[120px] sm:w-[200px] md:w-[200px] lg:w-[250px] xl:w-[280px] object-cover "
 
           />
         </div>

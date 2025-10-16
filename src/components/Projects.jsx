@@ -14,7 +14,7 @@ const Projects = () => {
           src="https://lottie.host/46671b96-d280-4c1b-bcf6-d1c39f1023e0/IAZXZ3HGEQ.lottie"
           loop
           autoplay
-          className='absolute top-0 left-0 right-0 mx-auto w-[150px] md:w-[250px] lg:w-[300px] '
+          className='absolute top-0 left-0 right-0 mx-auto w-[180px] md:w-[280px] lg:w-[320px] '
         />
       </div>
       <div className="flex justify-center mb-10 mt-5 pb-2">
@@ -66,8 +66,22 @@ const Projects = () => {
           </SwiperSlide>
         ))}
       </Swiper>
+      <div >
+        <DotLottieReact
+          src="https://lottie.host/48f84a10-da5d-4e55-8247-80abe86276da/MLXNSvpv2X.lottie"
+          loop
+          autoplay
+          className="absolute bottom-0 left-0 right-0 mx-auto w-[150px] md:w-[250px] lg:w-[300px]"
+        />
+      </div>
     </div>
   );
 };
 
 export default Projects;
+//  <DotLottieReact
+//     src="https://lottie.host/fc4fbeeb-18ec-4bc8-95d8-77c0aa1bf342/tIe3EBKrkn.lottie"
+//     loop
+//     autoplay
+//     className="absolute bottom-0 left-0 right-0 mx-auto w-[150px] md:w-[250px] lg:w-[300px]"
+//   />
