@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 
 const Contact = () => {
   const form = useRef();
@@ -31,14 +32,14 @@ const Contact = () => {
         onSubmit={sendEmail}
         className="flex flex-col md:flex-row w-full sm:w-[90%] md:w-[80%] lg:w-[100%] 
         overflow-hidden"
-        // bg-gradient-to-tr from-teal-500 via-purple-500 to-yellow-500 p-[2px] rounded-2xl shadow-2xl 
+      // bg-gradient-to-tr from-teal-500 via-purple-500 to-yellow-500 p-[2px] rounded-2xl shadow-2xl 
       >
         {/* ---------- Left Section (Image + Info) ---------- */}
         <div className="hidden md:flex flex-col gap-8 md:w-2/5 items-center justify-center bg-gray-900 p-6 lg:p-8 text-center">
-          <img
-            src="dev.png"
-            alt="Developer"
-            className="w-[80%] h-auto object-contain rounded-xl drop-shadow-lg"
+          <DotLottieReact
+            src="https://lottie.host/813efd6c-2698-4ac5-a435-a38e5386afc6/ufRcvXTzA0.lottie"
+            loop
+            autoplay
           />
 
           <div className="text-white text-start text-sm sm:text-base md:text-lg font-light flex flex-col gap-2">

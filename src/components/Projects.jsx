@@ -4,13 +4,22 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper/modules";
-
+import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 const Projects = () => {
   return (
-    <div className="container h-[70vh] sm:h-[80vh] md:h-[100vh]  flex flex-col justify-center  items-center px-4 py-10 mx-auto">
+    <div className="container relative h-[70vh] sm:h-[80vh] md:h-[100vh]  flex flex-col justify-center  items-center px-4 py-10 mx-auto">
       {/* Title */}
-      <div className="flex justify-center mb-10 mt-10 pb-2">
-        <h1 className="text-4xl sm:text-5xl md:text-[4rem]  font-hero2 pt-4 
+      <div>
+        <DotLottieReact
+          src="https://lottie.host/46671b96-d280-4c1b-bcf6-d1c39f1023e0/IAZXZ3HGEQ.lottie"
+          loop
+          autoplay
+          className='absolute top-0 left-0 right-0 mx-auto w-[150px] md:w-[250px] lg:w-[300px] '
+        />
+      </div>
+      <div className="flex justify-center mb-10 mt-5 pb-2">
+
+        <h1 className="text-xl sm:text-xl md:text-[3rem]  font-hero2 pt-2
         bg-gradient-to-r from-teal-500 via-orange-500 to-yellow-500 text-transparent bg-clip-text 
         hover:scale-105 transition-transform duration-300 ">
           Projects
@@ -46,11 +55,11 @@ const Projects = () => {
                     alt={project.title || "Project"}
                     className="w-full  object-cover transition-transform duration-500 group-hover:scale-110"
                   />
-                
-                <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 
+
+                  <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 
                 transition-opacity duration-500 flex items-center justify-center text-white text-lg font-semibold">
-                  {project.title || "View Project"}
-                </div>
+                    {project.title || "View Project"}
+                  </div>
                 </a>
               </figure>
             </div>

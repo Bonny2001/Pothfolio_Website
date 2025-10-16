@@ -13,19 +13,19 @@ const About = () => {
         <img
           src="arkaprava_pic.png"
           alt="Hero"
-          className="rounded-full shadow-lg h-[28rem] w-[18rem] sm:h-[24rem] sm:w-[24rem] md:h-[28rem] md:w-[20rem] lg:h-[30rem] lg:w-[20rem] object-cover"
+          className="rounded-full shadow-lg h-[14rem] w-[10rem] sm:h-[14rem] sm:w-[10rem] md:h-[24rem] md:w-[16rem] lg:h-[25rem] lg:w-[16rem] object-cover"
         />
       </div>
 
       {/* Text Section */}
       <div className="title flex flex-col justify-center items-center lg:items-start text-center lg:text-left space-y-5 max-w-2xl px-2">
-        <h1 className="text-white font-bold text-[2.5rem] sm:text-[3rem] md:text-[3.25rem] lg:text-[55px] font-hero2 
+        <h1 className="text-white font-bold text-[1.4rem] sm:text-[2rem] md:text-[3.25rem] lg:text-[55px] font-hero2 
           bg-gradient-to-tl from-white via-indigo-500 to-white bg-clip-text text-transparent
         ">
           About Me
         </h1>
 
-        <h3 className="text-gray-300 text-xl sm:text-2xl md:text-3xl tracking-widest font-hero4 font-bold 
+        <h3 className="text-gray-300 text-md sm:text-xl md:text-3xl tracking-widest font-hero4 font-bold 
           bg-gradient-to-l from-purple-500 via-orange-500 to-yellow-500 text-transparent bg-clip-text
         ">
           I’m Arkaprava Adhikary
