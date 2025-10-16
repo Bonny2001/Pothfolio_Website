@@ -31,7 +31,8 @@ const Contact = () => {
       <form
         ref={form}
         onSubmit={sendEmail}
-        className="flex flex-col md:flex-row w-full sm:w-[90%] md:w-[80%] lg:w-[100%] 
+        className="flex flex-col md:flex-row rounded-3xl 
+        w-full sm:w-[90%] md:w-[80%] lg:w-[100%] 
         overflow-hidden"
       // bg-gradient-to-tr from-teal-500 via-purple-500 to-yellow-500 p-[2px] rounded-2xl shadow-2xl 
       >
