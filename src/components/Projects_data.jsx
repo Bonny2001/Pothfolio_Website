@@ -4,7 +4,7 @@ const Data = [
         title: "Food Delivary",
         description: "This is a brief description of Project One.",
         imageUrl: "pj-1.png",
-        projectUrl: "https://fooddelivary.vercel.app/"
+        projectUrl: "https://food-latest-frontend.onrender.com/"
     },
     {
         id: 2,
