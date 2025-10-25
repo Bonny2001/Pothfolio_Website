@@ -8,6 +8,14 @@ const Data = [
     },
     {
         id: 2,
+        title: "BMF Music ",
+        description: "This is a brief description of Project Two.",
+        imageUrl: "pj-6.png",
+        projectUrl: "https://bmf-alpha.vercel.app/"
+
+    },
+    {
+        id: 3,
         title: "Luxary Cars",
         description: "This is a brief description of Project Two.",
         imageUrl: "pj-5.png",
@@ -15,22 +23,22 @@ const Data = [
 
     },
     {
-        id: 3,
-         title: "Dancing Academy",
+        id: 4,
+        title: "Dancing Academy",
         description: "This is a brief description of Project Two.",
         imageUrl: "pj-2.png",
         projectUrl: "https://dancing-academy.vercel.app/"
-       
+
     },
     {
-        id: 4,
+        id: 5,
         title: "Calculator App",
         description: "This is a brief description of Project Two.",
         imageUrl: "pj-4.png",
         projectUrl: "https://calculator-app-flax-five.vercel.app/"
     },
     {
-        id: 5,
+        id: 6,
         title: "Food Delivary",
         description: "This is a brief description of Project Two.",
         imageUrl: "pj-3.png",
